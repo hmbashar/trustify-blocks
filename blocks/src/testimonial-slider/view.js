@@ -1,23 +1,38 @@
+// import Swiper bundle with all modules installed
 import Swiper from 'swiper/bundle';
+
+// import styles bundle
 import 'swiper/css/bundle';
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.trustify-slider .swiper').forEach((sliderEl) => {
-        const parentEl = sliderEl.closest('.trustify-slider');
-        const autoplay = parentEl.dataset.autoplay === 'true';
-        const speed = parseInt(parentEl.dataset.speed, 10) || 3000;
+    document.querySelectorAll('.trustify-slider').forEach((sliderEl) => {
+        const autoplay = sliderEl.dataset.autoplay === 'true';
+        const speed = parseInt(sliderEl.dataset.speed, 10) || 3000;
 
-        new Swiper(sliderEl, {
+        new Swiper(sliderEl.querySelector('.swiper'), {
             loop: true,
+            slidesPerView: 1,
+            spaceBetween: 30,
             autoplay: autoplay ? { delay: speed } : false,
             pagination: {
-                el: '.swiper-pagination',
+                el: sliderEl.querySelector('.swiper-pagination'),
                 clickable: true,
             },
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
+                nextEl: sliderEl.querySelector('.swiper-button-next'),
+                prevEl: sliderEl.querySelector('.swiper-button-prev'),
+            },            
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView:2,
+                },
+                1200: {
+                    slidesPerView: 3,
+                }
+            }
         });
     });
 });

@@ -3,6 +3,7 @@
   \**************************************************************************************************************************************************************************************/
 .trustify-slider .swiper {
     width: 100%;
+    overflow: hidden;
 }
 
 .trustify-slide {
@@ -13,6 +14,7 @@
     border-radius: 8px;
     max-width: 500px;
     margin: 0 auto;
+    flex-shrink: 0;
 }
 
 .trustify-slide-avatar {
@@ -30,3 +32,6 @@
     margin-bottom: 10px;
 }
 
+.trustify-slider  .swiper-wrapper {
+    display: flex;
+}

@@ -11,7 +11,7 @@ export default function save({ attributes }) {
 
     return (
         <div {...useBlockProps.save({
-            className: 'trustify-slide swiper-slide'
+            className: 'swiper-slide trustify-slide'
         })}>
             {reviewerImage && (
                 <img
