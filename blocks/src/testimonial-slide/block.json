@@ -1,0 +1,39 @@
+{
+    "apiVersion": 3,
+    "name": "trustify/testimonial-slide",
+    "title": "Testimonial Slide",
+    "category": "widgets",
+    "parent": ["trustify/testimonial-slider"],
+    "icon": "format-quote",
+    "description": "A single testimonial for the slider.",
+    "attributes": {
+        "reviewerName": {
+            "type": "string",
+            "default": ""
+        },
+        "reviewerTitle": {
+            "type": "string",
+            "default": ""
+        },
+        "reviewContent": {
+            "type": "string",
+            "source": "html",
+            "selector": ".trustify-slide-content"
+        },
+        "reviewerImage": {
+            "type": "string",
+            "default": ""
+        },
+        "rating": {
+            "type": "number",
+            "default": 5
+        }
+    },
+    "supports": {
+        "html": false,
+        "anchor": false,
+        "multiple": true
+    },
+    "editorScript": "file:./index.js",
+    "style": "file:./style-index.css"
+}

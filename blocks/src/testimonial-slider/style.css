@@ -1,0 +1,27 @@
+.trustify-slider .swiper {
+    width: 100%;
+}
+
+.trustify-slide {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.trustify-slide-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.trustify-slide-stars {
+    font-size: 1.2em;
+    color: #f5a623;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,26 @@
+{
+    "apiVersion": 3,
+    "name": "trustify/testimonial-slider",
+    "title": "Testimonial Slider",
+    "category": "widgets",
+    "icon": "slides",
+    "description": "A slider to showcase testimonials.",
+    "attributes": {
+        "autoplay": {
+            "type": "boolean",
+            "default": true
+        },
+        "speed": {
+            "type": "number",
+            "default": 3000
+        }
+    },
+    "supports": {
+        "html": false,
+        "anchor": false,
+        "multiple": true
+    },
+    "editorScript": "file:./index.js",
+    "style": "file:./style-index.css",
+    "viewScript": "file:./view.js"
+}

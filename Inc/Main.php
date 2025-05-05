@@ -6,7 +6,7 @@ namespace Trustify\Inc;
  *
  * Handles the loading and initialization of  Trustify\Inc blocks.
  *
- * @package T Trustify\Inc
+ * @package Trustify\Inc
  * @since 1.0.0
  */
 
@@ -14,7 +14,13 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+use Trustify\Assets\Assets;
+
 class Main {
+
+   protected $assets;
+
+
     /**
      * Instance of the main class.
      *
@@ -39,7 +45,15 @@ class Main {
      */
     private function __construct() {
         $this->init_hooks();
+        $this->include_files();
+        
     }
+
+    private function include_files() {
+        require_once TRUSTIFY_BLOCKS_DIR. 'Assets/Assets.php';
+        $this->assets = new Assets();
+    }
+
 
     /**
      * Initialize WordPress hooks.

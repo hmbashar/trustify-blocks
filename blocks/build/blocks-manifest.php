@@ -41,5 +41,72 @@ return array(
 		),
 		'editorScript' => 'file:./index.js',
 		'style' => 'file:./style-index.css'
+	),
+	'testimonial-slide' => array(
+		'apiVersion' => 3,
+		'name' => 'trustify/testimonial-slide',
+		'title' => 'Testimonial Slide',
+		'category' => 'widgets',
+		'parent' => array(
+			'trustify/testimonial-slider'
+		),
+		'icon' => 'format-quote',
+		'description' => 'A single testimonial for the slider.',
+		'attributes' => array(
+			'reviewerName' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'reviewerTitle' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'reviewContent' => array(
+				'type' => 'string',
+				'source' => 'html',
+				'selector' => '.trustify-slide-content'
+			),
+			'reviewerImage' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'rating' => array(
+				'type' => 'number',
+				'default' => 5
+			)
+		),
+		'supports' => array(
+			'html' => false,
+			'anchor' => false,
+			'multiple' => true
+		),
+		'editorScript' => 'file:./index.js',
+		'style' => 'file:./style-index.css'
+	),
+	'testimonial-slider' => array(
+		'apiVersion' => 3,
+		'name' => 'trustify/testimonial-slider',
+		'title' => 'Testimonial Slider',
+		'category' => 'widgets',
+		'icon' => 'slides',
+		'description' => 'A slider to showcase testimonials.',
+		'attributes' => array(
+			'autoplay' => array(
+				'type' => 'boolean',
+				'default' => true
+			),
+			'speed' => array(
+				'type' => 'number',
+				'default' => 3000
+			)
+		),
+		'supports' => array(
+			'html' => false,
+			'anchor' => false,
+			'multiple' => true
+		),
+		'editorScript' => 'file:./index.js',
+		'style' => 'file:./style-index.css',
+		'viewScript' => 'file:./view.js'
 	)
 );
