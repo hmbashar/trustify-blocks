@@ -1,0 +1,41 @@
+.trustify-review {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    background: #fff;
+    max-width: 600px;
+}
+
+.trustify-review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.trustify-review-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.trustify-review-name {
+    font-weight: bold;
+}
+
+.trustify-review-title {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.trustify-review-stars {
+    color: #f5a623;
+    font-size: 1.1em;
+    margin-top: 4px;
+}
+
+.trustify-review-content {
+    font-size: 1em;
+    color: #333;
+}

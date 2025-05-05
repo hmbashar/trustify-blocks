@@ -1,0 +1,41 @@
+{
+  "apiVersion": 3,
+  "name": "trustify/review-box",
+  "title": "Review Box",
+  "category": "widgets",
+  "icon": "star-filled",
+  "description": "A simple review block with reviewer name, title, content, and star rating.",
+  "attributes": {
+    "reviewerName": {
+      "type": "string",
+      "default": ""
+    },
+    "reviewerTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "reviewContent": {
+      "type": "string",
+      "source": "html",
+      "selector": ".trustify-review-content"
+    },
+    "reviewerImage": {
+      "type": "string",
+      "default": ""
+    },
+    "rating": {
+      "type": "number",
+      "default": 5
+    }
+  },
+  "supports": {
+    "html": false,
+    "color": {
+      "background": true,
+      "text": true
+    },
+    "typography": true
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}
