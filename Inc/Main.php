@@ -58,9 +58,7 @@ class Main {
      * @return void
      */
     private function init_hooks() {
-        add_action('init', [$this, 'register_blocks']);
-        add_action('enqueue_block_editor_assets', [$this, 'enqueue_editor_assets']);
-        add_action('wp_enqueue_scripts', [$this, 'enqueue_frontend_assets']);
+        add_action('init', [$this, 'register_blocks']);  
     }
 
     /**
@@ -88,19 +86,6 @@ class Main {
         }
     }
 
-    /**
-     * Enqueue editor-specific assets.
-     */
-    public function enqueue_editor_assets() {
-
-    }
-
-    /**
-     * Enqueue frontend assets.
-     */
-    public function enqueue_frontend_assets() {
-    
-    }
 
     /**
      * Prevent cloning of the instance.
