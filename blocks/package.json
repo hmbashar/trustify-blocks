@@ -1,8 +1,8 @@
 {
-	"name": "blocks",
-	"version": "0.1.0",
+	"name": "trustify-blocks",
+	"version": "1.0",
 	"description": "Example block scaffolded with Create Block tool.",
-	"author": "The WordPress Contributors",
+	"author": "nayonptk",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {

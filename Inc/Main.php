@@ -14,11 +14,9 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-use Trustify\Assets\Assets;
 
 class Main {
 
-   protected $assets;
 
 
     /**
@@ -50,8 +48,7 @@ class Main {
     }
 
     private function include_files() {
-        require_once TRUSTIFY_BLOCKS_DIR. 'Assets/Assets.php';
-        $this->assets = new Assets();
+       
     }
 
 

@@ -2,7 +2,7 @@
 	"name": "trustify-blocks",
 	"version": "1.0.0",
 	"description": "A collection of custom Gutenberg blocks for WordPress that help build trust and credibility with website visitors through social proof elements, and trust indicators",
-	"author": "hmbashar",
+	"author": "nayonptk",
 	"license": "GPL-2.0-or-later",
 	"scripts": {
         "i:b": "npm install --prefix blocks",

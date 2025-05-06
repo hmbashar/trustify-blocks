@@ -1,55 +1,72 @@
-=== trustify ===
-Contributors:      The WordPress Contributors
-Tags:              block
-Tested up to:      6.7
-Stable tag:        0.1.0
+=== Trustify Blocks ===
+Contributors:      nayonptk
+Tags:              gutenberg, testimonials, reviews, social proof, trust badges
+Tested up to:      6.8
+Stable tag:        1.0.0
+Requires at least: 6.0
+Requires PHP:      8.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
+Build trust and credibility with your website visitors using customizable testimonials and review blocks.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+Trustify Blocks is a collection of custom Gutenberg blocks designed to help you showcase social proof and build trust with your website visitors. The plugin provides easy-to-use blocks for displaying testimonials, reviews, and trust indicators.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+= Key Features =
+
+* **Testimonial Slider Block**: Create beautiful, responsive testimonial sliders
+  * Customizable autoplay settings
+  * Adjustable slide transition speed
+  * Navigation arrows and pagination
+  * Mobile-friendly design
+
+* **Review Box Block**: Display individual reviews with ratings
+  * Star rating system
+  * Reviewer image support
+  * Customizable colors and typography
+  * Reviewer name and title fields
+  * Rich text content area
+
+= Block Features =
+
+* Clean, modern design
+* Fully responsive layouts
+* Easy to customize
+* Compatible with all themes
+* No coding required
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/blocks` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
+1. Upload the plugin files to the `/wp-content/plugins/trustify-blocks` directory, or install the plugin through the WordPress plugins screen directly.
+2. Activate the plugin through the 'Plugins' screen in WordPress
+3. Use the Blocks inserter in the WordPress editor to add the desired blocks to your pages or posts
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Can I customize the colors and typography? =
 
-An answer to that question.
+Yes, both the Testimonial Slider and Review Box blocks support WordPress theme colors and typography settings.
 
-= What about foo bar? =
+= Is the slider mobile-friendly? =
 
-Answer to foo bar dilemma.
+Yes, the testimonial slider is fully responsive and works great on all devices.
 
-== Screenshots ==
+= Can I add multiple testimonial sliders on the same page? =
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+Yes, you can add multiple sliders with different content and settings on the same page.
+
 
 == Changelog ==
 
-= 0.1.0 =
-* Release
+= 1.0.0 =
+* Initial release
+* Added Testimonial Slider block
+* Added Review Box block
+* Added customization options
 
-== Arbitrary section ==
+== Upgrade Notice ==
 
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+= 1.0.0 =
+Initial release of Trustify Blocks with testimonial slider and review box features.
