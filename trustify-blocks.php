@@ -76,7 +76,7 @@ final class Trustify_Blocks
         } else {
             add_action('admin_notices', function () {
                 echo '<div class="notice notice-error"><p>';
-                _e('Trustify Blocks: Required class could not be loaded.', 'trustify-blocks');
+                esc_html_e('Trustify Blocks: Required class could not be loaded.', 'trustify-blocks');
                 echo '</p></div>';
             });
         }
