@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Trustify Blocks
  * Description: A collection of custom Gutenberg blocks for WordPress that help build trust and credibility with website visitors through social proof elements, and trust indicators
- * Version: 0.1.0
+ * Version: 1.0.0
  * Author: Md. Nayon Hossain
  * Author URI: https://facebook.com/nayonptk
  * License: GPL-2.0-or-later
