@@ -1,5 +1,5 @@
 === Trustify Blocks – Testimonials, Reviews & Trust Widgets for Gutenberg ===
-Contributors:      nayonptk, hmbashar
+Contributors:      hmbashar
 Tags:              gutenberg, testimonials, reviews, social proof, trust badges
 Tested up to:      6.8
 Stable tag:        1.0.0
