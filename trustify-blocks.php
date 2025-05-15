@@ -56,7 +56,7 @@ final class Trustify_Blocks
      */
     private function define_constants()
     {
-        define('TRUSTIFY_BLOCKS_VERSION', '0.1.0');
+        define('TRUSTIFY_BLOCKS_VERSION', '1.0.0');
         define('TRUSTIFY_BLOCKS_DIR', plugin_dir_path(__FILE__));
         define('TRUSTIFY_BLOCKS_URL', plugin_dir_url(__FILE__));
     }
