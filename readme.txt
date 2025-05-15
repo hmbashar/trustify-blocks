@@ -14,6 +14,10 @@ Build trust and credibility with your website visitors using customizable testim
 
 Trustify Blocks is a collection of custom Gutenberg blocks designed to help you showcase social proof and build trust with your website visitors. The plugin provides easy-to-use blocks for displaying testimonials, reviews, and trust indicators.
 
+[View Demo](https://lonelytime.s3-tastewp.com/trustify-blocks/)
+
+
+
 = Key Features =
 
 * **Testimonial Slider Block**: Create beautiful, responsive testimonial sliders
