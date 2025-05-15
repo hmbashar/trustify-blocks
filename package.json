@@ -1,13 +1,14 @@
 {
   "name": "trustify-blocks",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A collection of custom Gutenberg blocks for WordPress that help build trust and credibility with website visitors through social proof elements, and trust indicators",
   "author": "nayonptk",
   "license": "GPL-2.0-or-later",
   "scripts": {
     "clean": "find . -name '.DS_Store' -type f -delete",
     "i:b": "npm install --prefix blocks",
-    "build": "cd blocks && npm run build",
+    "build": "wp-scripts build --webpack-copy-php --blocks-manifest",
+    "build:blocks": "cd blocks && npm run build",
     "format": "wp-scripts format",
     "lint:css": "wp-scripts lint-style",
     "lint:js": "wp-scripts lint-js",
