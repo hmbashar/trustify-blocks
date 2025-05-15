@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Trustify Blocks
- * Description: A collection of custom Gutenberg blocks for WordPress that help build trust and credibility with website visitors through social proof elements, and trust indicators
+ * Plugin Name: Trustify Blocks – Testimonials, Reviews & Trust Widgets for Gutenberg
+ * Description: Build instant credibility with Trustify Blocks – a powerful collection of Gutenberg blocks for adding testimonials, reviews, star ratings, trust badges, and social proof sections that boost user confidence and website conversions.
  * Version: 1.0.0
  * Author: Md Abul Bashar
  * Author URI: https://facebook.com/hmbashar
