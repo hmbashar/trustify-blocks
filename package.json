@@ -7,8 +7,7 @@
   "scripts": {
     "clean": "find . -name '.DS_Store' -type f -delete",
     "i:b": "npm install --prefix blocks",
-    "build": "wp-scripts build --webpack-copy-php --blocks-manifest",
-    "build:blocks": "cd blocks && npm run build",
+    "build": "cd blocks && npm run build",
     "format": "wp-scripts format",
     "lint:css": "wp-scripts lint-style",
     "lint:js": "wp-scripts lint-js",
